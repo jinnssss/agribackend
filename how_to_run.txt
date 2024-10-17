@@ -1,0 +1,20 @@
+HOW TO RUN 
+
+Create a .env File:
+
+In the root directory of your project, create a file named .env.
+Copy the Keys into the .env File:
+
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/agri-v3
+JWT_SECRET="0fe257571dac54cb18d93760e632770acf972c17da90ee8106e99d350df24cb9"
+SESSION_SECRET="0fe257571dac54cb18d93760e632770acf972c17da90ee8106e99d350df24cb9"
+GOOGLE_CLIENT_ID="447671849930-plqu95cf8hkt0p5c0rh14s8tne44qmk8.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET="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"
+
+Run the Project:
+
+Open your terminal or command prompt in the project root directory and execute the following command:
+bash
+Copy code
+npm run
